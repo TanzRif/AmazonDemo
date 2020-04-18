@@ -17,11 +17,11 @@ public class H_amazon {
 		Thread.sleep(4000);
 		driver.findElement(By.xpath("//span[@class='nav-line-2'][contains(text(),'Account & Lists')]")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//input[@id='ap_email']")).sendKeys("lifeneverstop2019@gmail.com");
+		driver.findElement(By.xpath("//input[@id='ap_email']")).sendKeys("[][][[][]");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@id='continue']")).click();
 
-		driver.findElement(By.xpath("//input[@id='ap_password']")).sendKeys("USA1234");
+		driver.findElement(By.xpath("//input[@id='ap_password']")).sendKeys("[][][]");
 
 		driver.findElement(By.xpath("//input[@id='signInSubmit']")).click();
 		Thread.sleep(2000);
